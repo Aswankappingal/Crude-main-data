@@ -69,7 +69,7 @@ const Studentview = () => {
       const res = await axios.post("http://localhost:3002/api/addtask", { ...val1 });
       console.log(res.data);
       if (res.status !== 404) {
-        alert("Data Keri");
+        alert("Data Added");
       }
       GetPerson();
     } catch (error) {
