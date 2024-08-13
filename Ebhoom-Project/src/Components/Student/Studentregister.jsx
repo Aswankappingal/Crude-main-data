@@ -84,7 +84,7 @@ const Studentregister = () => {
 
 
 
-                <button type="submiteee" className='btn' onClick={RegisterData} >Register</button>
+                <button type="submite" className='btn' onClick={RegisterData} >Register</button>
                  <div className='dont'><Link to={"/Studentlog"} ><button>Already  have an Account?  Login Now!</button></Link></div>
                 {/* <button type="submit" className="btn login"' onClick={RegisterData} >Register</button> */}
               </div>
